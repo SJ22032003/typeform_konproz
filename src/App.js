@@ -1,8 +1,11 @@
 import { MyComponent } from "./components/typeform";
-function App() {
+import { Calendly,  CalendlyPopup } from "./components/Calandly";
+function App() { 
   return (
     <div className="App">
       <MyComponent />
+      {/* <Calendly /> */}
+      <CalendlyPopup />
     </div>
   );
 }
